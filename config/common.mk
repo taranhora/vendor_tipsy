@@ -99,7 +99,6 @@ PRODUCT_PACKAGES += \
     LatinIME \
     LockClock \
     masquerade \
-    SlimWallpapers \
     Tavern
     
 
