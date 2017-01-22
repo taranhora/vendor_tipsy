@@ -43,10 +43,10 @@ DEBUG = False
 default_manifest = ".repo/manifest.xml"
 
 custom_local_manifest = ".repo/local_manifests/tipsy_manifest.xml"
-custom_default_revision = "ng7.0"
+custom_default_revision = "n7.1"
 custom_dependencies = "tipsy.dependencies"
-org_manifest = "SlimRoms"  # leave empty if org is provided in manifest
-org_display = "SlimRoms"  # needed for displaying
+org_manifest = "TipsyOs-Devices"  # leave empty if org is provided in manifest
+org_display = "TipsyOs-Devices"  # needed for displaying
 
 github_auth = None
 
