@@ -100,7 +100,8 @@ PRODUCT_PACKAGES += \
     LatinIME \
     LockClock \
     masquerade \
-    Tavern
+    Tavern \
+    OmniStyle
     
 
 # SlimFileManager removed until updated
