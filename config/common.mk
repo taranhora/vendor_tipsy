@@ -74,8 +74,7 @@ endif
 PRODUCT_PACKAGES += \
     Basic \
     LiveWallpapersPicker \
-    PhaseBeam \
-    Chromium
+    PhaseBeam
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
