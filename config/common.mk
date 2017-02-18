@@ -94,7 +94,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SlimOTA \
     BluetoothExt \
-    KernelAdiutor \
     Eleven \
     LatinIME \
     LockClock \
