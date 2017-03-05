@@ -103,7 +103,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     masquerade \
     Tavern \
-    OmniStyle
+    OmniStyle \
+    OmniJaws
     
 
 # SlimFileManager removed until updated
