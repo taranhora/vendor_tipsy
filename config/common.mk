@@ -101,7 +101,7 @@ PRODUCT_PACKAGES += \
     Eleven \
     LatinIME \
     LockClock \
-    masquerade \
+    ThemeInterfacer \
     Tavern \
     OmniStyle \
     OmniJaws
