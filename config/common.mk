@@ -144,12 +144,14 @@ vendor/tipsy/prebuilt/common/app/Nova.apk:system/app/Nova.apk
 PRODUCT_COPY_FILES += \
 vendor/tipsy/prebuilt/common/app/adaway.apk:system/app/adaway.apk
 
+ifeq ($(DEFAULT_ROOT_METHOD),magisk)
 # Magisk Manager
 PRODUCT_PACKAGES += \
     MagiskManager
 # Copy Magisk zip
 PRODUCT_COPY_FILES += \
     vendor/tipsy/prebuilt/zip/magisk.zip:system/addon.d/magisk.zip
+endif
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
