@@ -219,7 +219,7 @@ endif
 # Versioning System
 # tipsy version.
 PRODUCT_VERSION_MAJOR = 7.1.1
-PRODUCT_VERSION_MINOR = Testing_i_something
+PRODUCT_VERSION_MINOR = Testing_Ichtegems
 PRODUCT_VERSION_MAINTENANCE = v5.2
 ifdef TIPSY_BUILD_EXTRA
     TIPSY_POSTFIX := $(TIPSY_BUILD_EXTRA)
