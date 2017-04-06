@@ -105,7 +105,8 @@ PRODUCT_PACKAGES += \
     Tavern \
     OmniStyle \
     OmniSwitch \
-    OmniJaws
+    OmniJaws \
+    Turbo
     
 
 # SlimFileManager removed until updated
