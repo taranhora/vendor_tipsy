@@ -104,6 +104,7 @@ PRODUCT_PACKAGES += \
     ThemeInterfacer \
     Tavern \
     OmniStyle \
+    OmniSwitch \
     OmniJaws
     
 
