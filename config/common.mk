@@ -106,10 +106,7 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     OmniSwitch \
     OmniJaws
-
-#SnapdragonGallery
-PRODUCT_PACKAGES += \
-    SnapdragonGallery    
+    
 
 # SlimFileManager removed until updated
 
