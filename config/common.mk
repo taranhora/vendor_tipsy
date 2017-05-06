@@ -156,6 +156,10 @@ vendor/tipsy/prebuilt/common/app/Nova.apk:system/app/Nova.apk
 PRODUCT_COPY_FILES += \
 vendor/tipsy/prebuilt/common/app/adaway.apk:system/app/adaway.apk
 
+# Amaze File Manager
+PRODUCT_COPY_FILES += \
+vendor/tipsy/prebuilt/common/app/AmazeFileManager.apk:system/app/AmazeFileManager.apk
+
 ifeq ($(DEFAULT_ROOT_METHOD),rootless)
 else
 # Magisk Manager --> default root method
