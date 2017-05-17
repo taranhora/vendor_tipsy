@@ -85,10 +85,6 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librsjni
 
-# AudioFX
-PRODUCT_PACKAGES += \
-    AudioFX
-
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
     org.cyanogenmod.hardware \
