@@ -104,7 +104,8 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     Turbo \
     Nova \
-    adaway
+    adaway \
+    AmazeFileManager
     
 
 # SlimFileManager removed until updated
@@ -152,10 +153,6 @@ PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat
 endif
-
-# Amaze File Manager
-PRODUCT_COPY_FILES += \
-vendor/tipsy/prebuilt/common/app/AmazeFileManager.apk:system/app/AmazeFileManager.apk
 
 ifeq ($(DEFAULT_ROOT_METHOD),rootless)
 else
