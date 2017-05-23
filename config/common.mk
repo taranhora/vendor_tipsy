@@ -103,7 +103,8 @@ PRODUCT_PACKAGES += \
     OmniSwitch \
     OmniJaws \
     Turbo \
-    Nova
+    Nova \
+    adaway
     
 
 # SlimFileManager removed until updated
@@ -151,10 +152,6 @@ PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat
 endif
-
-# Adaway
-PRODUCT_COPY_FILES += \
-vendor/tipsy/prebuilt/common/app/adaway.apk:system/app/adaway.apk
 
 # Amaze File Manager
 PRODUCT_COPY_FILES += \
