@@ -102,7 +102,8 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     OmniSwitch \
     OmniJaws \
-    Turbo
+    Turbo \
+    Nova
     
 
 # SlimFileManager removed until updated
@@ -150,10 +151,6 @@ PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat
 endif
-
-# NovaLauncher
-PRODUCT_COPY_FILES += \
-vendor/tipsy/prebuilt/common/app/Nova.apk:system/app/Nova.apk
 
 # Adaway
 PRODUCT_COPY_FILES += \
