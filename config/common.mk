@@ -105,7 +105,8 @@ PRODUCT_PACKAGES += \
     Turbo \
     Nova \
     adaway \
-    AmazeFileManager
+    AmazeFileManager \
+    GZRoms
     
 
 # SlimFileManager removed until updated
