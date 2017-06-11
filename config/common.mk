@@ -106,7 +106,6 @@ PRODUCT_PACKAGES += \
     adaway \
     AmazeFileManager \
     GZRoms
-    
 
 # SlimFileManager removed until updated
 
@@ -229,8 +228,8 @@ endif
 # Versioning System
 # tipsy version.
 PRODUCT_VERSION_MAJOR = $(PLATFORM_VERSION)
-PRODUCT_VERSION_MINOR = Qantelaar
-PRODUCT_VERSION_MAINTENANCE = v6.0
+PRODUCT_VERSION_MINOR = RosteJeanne
+PRODUCT_VERSION_MAINTENANCE = v6.1
 ifdef TIPSY_BUILD_EXTRA
     TIPSY_POSTFIX := $(TIPSY_BUILD_EXTRA)
 endif
