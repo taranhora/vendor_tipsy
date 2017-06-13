@@ -105,7 +105,8 @@ PRODUCT_PACKAGES += \
     Nova \
     adaway \
     AmazeFileManager \
-    GZRoms
+    GZRoms \
+    Jelly
 
 # SlimFileManager removed until updated
 
