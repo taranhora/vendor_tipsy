@@ -1,38 +1,17 @@
 ====================
-     06-16-2017
+     06-18-2017
 ====================
 
 
-   * manifest/
-e072140 track our Snap
-84495b5 track Snap from Tesla
-6adad00 change tesla remote to n7.1.2
+====================
+     06-17-2017
+====================
 
-   * packages/apps/Snap/
-3de1d36 SnapdragonCamera: Fix ghosting when non-zsl in VGA/QVGA size
-84e8ffe SnapdragonCamera: Fix live shot image stretch when recording is 4K
-bfd628d SnapdragonCamera: Fix photo reversed when enable selfie Mirror
-260b7e2 SnapdragonCamera: Fix photo reversed when enable selfie Mirror
-d88e114 SnapdragonCamera: Fix preview in wrong size
-25412cd SnapdragonCamera: Fix front camera preview flipped
-bf180f7 SnapdragonCamera: Fix preview is flipped on 8996
-418b113 SnapdragonCamera: Camera1 Selfie Mirror orientation check
-37a114e SnapdragonCamera: Fix Camera1 force close when refocusing the picture.
-4602c29 SnapdragonCamera: Change video snapshot picture size logic
-6d8a2ef SnapdragonCamera: Avoid cancel AF shortly after trigger
-6680082 SnapdragonCamera: Fix crash during UI stress test
-d2dbe2a SnapdragonCamera: Fix OutOfBoundsException in monkey test
-c559745 SnapdragonCamera: Fix FC for NullPointerException
-c4b9240 SnapdragonCamera: Reset zoom value when resuming
-263ae52 SnapdragonCamera: Fix capture with flash will get black image.
-077e7a7 SnapdragonCamera: Fix FC cause by Null pointer
-6058b56 SnapdragonCamera: Make copy of location before altering timestamp
 
-   * vendor/tipsy/
-280911a script: give executable permission for changelog
-749cd6b script: generate changelog for last 15days
-3924ef9 Add the    *s list
-8b64d2c Update Nova 5.3-beta1
+====================
+     06-16-2017
+====================
+
 
 ====================
      06-15-2017
@@ -44,68 +23,15 @@ c4b9240 SnapdragonCamera: Reset zoom value when resuming
 ====================
 
 
-   * frameworks/base/
-6117bb3 Revert "Add support for page theme color to WebView and WebChromeClient."
-
-   * packages/apps/Dialer/
-5aa0e56 Dialer: lock screen appear before incoming call screen
-ae9b155 IMS-VT:Process crash during MT_VT call accept scenario
-
-   * packages/apps/Jelly/
-fae85ed Revert "Add support for WebViews that provide the site's theme color."
-
-   * packages/apps/Snap/
-8d0d4a5 Snap: Sign with platform key
-
-   * packages/apps/masquerade/
-de4611a Add interface to get API version and app authentication status
-
-   * system/sepolicy/
-6ff3e5d Add policy to fix interfacer derp on boot
-
 ====================
      06-13-2017
 ====================
 
 
-   * frameworks/base/
-39a1d53 SlimDoze: Fix gesture triggers not following Ambient display
-6c17e1b Add support for page theme color to WebView and WebChromeClient.
-
-   * manifest/
-010df2d track Jelly
-
-   * packages/apps/Jelly/
-5563e1b home: default to google
-
-   * packages/apps/Snap/
-9795b7f Add orientation correction for landscape devices
-
-   * system/bt/
-7ff8779 bt: Disable AVRCP 1.6
-
-   * vendor/tipsy/
-4ebcd8b build Jelly
-
 ====================
      06-12-2017
 ====================
 
-
-   * frameworks/base/
-14d16ad Revert "[DO NOT MERGE] Don't allow permission change to runtime"
-c1c6d67 Revert "Obex: Reduce MTU Size."
-
-   * packages/apps/KernelAdiutor/
-a85796f Merge pull request #2 from TeslaRom-N/n7.1.1
-
-   * packages/apps/Snap/
-84e0760 Snap: Simulate back button press when menu back button is pressed
-
-   * vendor/tipsy/
-0b64330 Testing v6.2
-37135f9 Magisk: update zip to v13-170612
-ec74d24 Magisk: update apk to v5.0-170612
 
 ====================
      06-11-2017
@@ -122,192 +48,28 @@ ec74d24 Magisk: update apk to v5.0-170612
 ====================
 
 
-   * frameworks/base/
-7b0739c Add ability to configure battery saver mode color (1/2) Adapted for marshmallow by @KreAch3R
-
-   * packages/apps/Tavern/
-d0c6ff0 GZR Colors into default in the ColorPicker
-2223dd7 Add ability to configure battery saver mode color (2/2)
-
-   * system/core/
-685442d system: core: sched: Fix missing }
-
 ====================
      06-08-2017
 ====================
 
-
-   * build/kati/
-a0bfc98 Merge remote-tracking branch 'google-kati/master' into testing
-
-   * frameworks/base/
-c8d49bb fingerprint: Speed up wake-and-unlock scenario
-b741dcf Merge the two night light options into one
-4545682 Night mode tile brightness: allow to set a different value [1/2]
-d96c1f5 Night tile: automatically set a lower brightness when active [1/2]
-7b1e571 Night auto brightness: restore user brightness values also after reboot
-eec4bba Wider night light auto low brightness action
-42665f8 fingerprint: handle PerformanceStats NULL pointers
-
-   * manifest/
-d4dfcc1 track kati testing
-
-   * packages/apps/Jelly/
-22cb565 Implement history management through a ContentProvider.
-
-   * packages/apps/Settings/
-dee9645 Night light brightness options
-715bc5a Settings: enable fast scroll for all app list views
-
-   * system/core/
-7f4d84a sched: Update on par with Lineage
 
 ====================
      06-07-2017
 ====================
 
 
-   * frameworks/opt/slim/
-085e5dd Fix actions for screen off gestures
-
-   * hardware/qcom/media-caf/msm8996/
-81e888e mm-video-v4l2: venc: Initialize allocate native handle variable
-6ee7681 mm-video-v4l2: Initialize extradata fd to -1
-6c4b47b mm-video-v4l2: venc: Fix double close on fd
-80e456d mm-video-v4l2: Close output buffer dup fd only if valid
-2935552 mm-video-v4l2: create pthread with valid file descriptors
-37abb12 Merge tag 'LA.UM.5.5.r1-03800-8x96.0' into cm-14.1-caf-8996
-3355d5e mm-video-v4l2: vidc: correct the crop update
-34ed4d5 Merge 69058718422addd0dc9c2ebfc6857d0ebd22d6ca on remote branch
-
-   * packages/apps/KernelAdiutor/
-d386afb Merge pull request #1 from Druboo666/n7.1.1
-
-   * packages/apps/Settings/
-05fddd4 Settings: fix FC if opening Audio Settings after enabling DND
-
-   * vendor/tipsy/
-549f5f2 Merge branch 'testing' of https://github.com/TipsyOs/vendor_tipsy into linaro
-dee21d2 Testing 6.1
-2b32992 Update GZRApp 3.1
-5f3f84e Update Nova 5.2
-
 ====================
      06-06-2017
 ====================
 
-
-   * build/
-124b137 [DO NOT MERGE] Update Security String to 2017-06-05 for nyc-dev
-8afbe01 [DO NOT MERGE] Update Security String to 2017-06-01 for nyc-dev
-6e762fe Version bump to NJH47B
-
-   * frameworks/base/
-681e6b6 Fix issue with saving admins before finishing loading.
-e04c6f9 resolve merge conflicts of ad4aa1ce7d3d to nyc-mr1-dev fix conflict in nyc-mr2-release (cherry picked from commit f806d65e615b942c268a5f68d44bde9d55634972)
-c409ce0 Reduce hwui CPU time by using glDrawRangeElements
-fec4668 Optimised hwui rounded corners shader
-
-   * hardware/qcom/audio-caf/msm8996/
-f865aba msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
-668a640 audio policy: reduce audio routing commands trafic
-
-   * hardware/qcom/display-caf/msm8996/
-02bd837 Merge "sdm: Set layer frame rate if not specified."
-a10c771 sdm: Increase SurfaceFlinger fd limits
-
-   * libcore/
-748ecd8 Reject ftp URLConnection containing /r/n in user info.
-03ea601 Test for rejection of ftp URL with /r/n in userinfo
-
-   * manifest/
-5fd5211 7.1.2_r17
-de7620f our libcore
-c7ab441 our system/bt
-
-   * packages/apps/Bluetooth/
-600d865 Merge remote-tracking branch 'upstream/test' into HEAD
-9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
-9efb588 Merge tag 'android-7.1.2_r17' into cm-14.1
-
-   * packages/apps/Jelly/
-e28fd6c Jelly: Add HTTP auth login support
-
-   * system/bt/
-7d25289 Check LE advertising data length before caching advertising records
-
-   * system/core/
-f373519 Fix out of bound read in libziparchive
-a4cfa59 libcutils: remove schedgroup fds [DO NOT MERGE]
-
-   * vendor/tipsy/
-ec0b2a7 Do not sign the prebuilt apps again
-354bae0 GZRoms App - signed v3.0
 
 ====================
      06-05-2017
 ====================
 
 
-   * packages/apps/Jelly/
-7ac5399 Add support for WebViews that provide the site's theme color.
-
 ====================
      06-04-2017
 ====================
 
-
-   * packages/apps/KernelAdiutor/
-0033068 CPU: Stop assuming all 4 core cpus are big/little
-4f69fcc Revert "Fix calculation of big.LITTLE cores on SD82*"
-
-   * packages/apps/OmniSwitch/
-13cbc65 Automatic translation import
-4fca051 OmniSwitch: cleanup BitmapUtils
-
-   * packages/services/OmniJaws/
-017c3b7 Automatic translation import
-efe3cb0 OmniJaws: update README.md to include OWM API key usage info
-
-====================
-     06-03-2017
-====================
-
-
-   * hardware/qcom/audio-caf/msm8916/
-7ca5b90 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
-ad81174 Revert "audio HAL: fix thread starvation"
-
-   * hardware/qcom/media-caf/msm8916/
-90421fc Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
-
-   * packages/apps/Snap/
-6d14e50 Automatic translation import
-
-====================
-     06-02-2017
-====================
-
-
-   * build/
-1b393bc Add more kryo tuning
-
-   * manifest/
-d2eb2c9 Remove SlimOTA [1/2]
-
-   * packages/apps/Bluetooth/
-74dfc68 AVRCP: Avoid NullPointerException
-
-   * packages/apps/Settings/
-456147b Settings: Remove Slim OTA
-94a7e65 Remove description for GZRoms App preference
-b5f757c Settings: Add GZRoms App to About phone/device
-3926ae8 Revert "Settings: Add GZRoms App to dashboard"
-0db7241 Settings: Add GZRoms App to dashboard
-
-   * vendor/tipsy/
-15d8807 Remove SlimOTA [2/2]
-57e2297 Include GZRoms App into the builds
-b69146f overlay: Enable Wi-Fi by default on first boot
-12302ba Update example backup-transport resource overlay
 
