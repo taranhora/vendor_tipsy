@@ -103,6 +103,7 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     Turbo \
     Nova \
+    NovaGoogleCompanion \
     adaway \
     AmazeFileManager \
     GZRoms \
