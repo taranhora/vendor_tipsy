@@ -1,17 +1,99 @@
 ====================
+     06-25-2017
+====================
+
+
+   * frameworks/base/
+93cc9f6  Added NULL check for Action Bar  [Martinusbe]
+cc0d4bc  Aapt2: Fix png leak  [Martinusbe]
+3eb19bc  Destroy Allocation right away on exception  [Martinusbe]
+754171d  SymbolComparator operator() is missing const  [Martinusbe]
+====================
+     06-24-2017
+====================
+
+
+   * frameworks/av/
+abc2233  Revert "Camera: Use HAL1 by default"  [Martinusbe]
+1e12283  libstagefright: encoder must exist when source starting  [Martinusbe]
+6c964d6  stagefright: don't assume 16 bit format  [Martinusbe]
+   * system/core/
+070d5e2  Filter GalleryDatab*  [Martinusbe]
+b70c4e7  Silence spammy logs from camera blobs (AEC_PORT and mm-camera)  [Martinusbe]
+====================
+     06-23-2017
+====================
+
+
+   * packages/providers/MediaProvider/
+a3c2d41  MediaProvider: Fix where condition of delete queries  [Josue Rivera]
+4dc5ee7  New Material icon  [Josue Rivera]
+====================
+     06-22-2017
+====================
+
+
+   * hardware/qcom/display-caf/msm8994/
+7861c4b  Fix duplicate copy file rules  [Martinusbe]
+1ff05df  libmemtrack: Fix integer overflow in kgsl function  [Martinusbe]
+108aebe  hwcomposer: Fix regression in hwc_sync  [Martinusbe]
+   * hardware/qcom/media-caf/msm8994/
+0ef6b94  vdec:Do not call stream_off on input port if all EBD's are not flushed.  [Martinusbe]
+   * vendor/tipsy/
+63335af  NovaLauncher_5.3-beta3  [Martinusbe]
+fb5ba80  Nova Google Companion v1.1  [Martinusbe]
+====================
+     06-21-2017
+====================
+
+
+   * hardware/qcom/display-caf/msm8916/
+b7e7373  hwcomposer: Fix regression in hwc_sync  [Josue Rivera]
+   * hardware/qcom/display-caf/msm8974/
+9105770  hwcomposer: Fix regression in hwc_sync  [Josue Rivera]
+   * system/core/
+af87f26  init: Run restorecon_recursive asynchronously  [Martinusbe]
+aee320d  healthd: fix include paths  [Martinusbe]
+   * vendor/tipsy/
+9d2e92e  Add Nova Google Companion 1.0  [Prema Chand Alugu]
+====================
+     06-20-2017
+====================
+
+
+   * hardware/ril/
+1bbba98  ril: fix a memory leak.  [Josue Rivera]
+   * hardware/ril-caf/
+1a0c443  ril: fix a memory leak.  [Josue Rivera]
+   * packages/apps/Nfc/
+7d4e3af  NfcNci: make T3T/Nfc-F HCE optional  [Josue Rivera]
+====================
+     06-19-2017
+====================
+
+
+   * vendor/tipsy/
+0371054  Testing 6.3  [Martinusbe]
+51d4eb3  regenerated changelog  [Martinusbe]
+bbd8344  changelog_tipsy: more info and bling  [Martinusbe]
+====================
      06-18-2017
 ====================
 
 
    * frameworks/base/
 58e7579  QS: make NFC & usb_tether magically appear  [Martinusbe]
-   * frameworks/opt/slim/
-228deb6  Revert "Add NFC QS Tile"  [Martinusbe]
-64647b5  Add NFC QS Tile  [Martinusbe]
+a73c84b  Night mode auto brightness: code cleanup and improvements [1/2]  [Prema Chand Alugu]
+e02363e  Night auto brightness: restore user brightness values also after reboot  [Prema Chand Alugu]
+b2d0607  Wider night light auto low brightness action  [Prema Chand Alugu]
+   * packages/apps/Dialer/
+b556075  Fixed Dialer crash issue when finish dialpad immediately  [Martinusbe]
    * packages/apps/OmniStyle/
 a87049b  header: add Satan red beer for this weeks release  [Martinusbe]
+   * packages/apps/Settings/
+f272ab8  Night mode auto brightness: code cleanup and improvements [2/2]  [Prema Chand Alugu]
+d2e27f9  Night ligh auto brightness: menu improvements  [Prema Chand Alugu]
    * vendor/tipsy/
-bbd8344  changelog_tipsy: more info and bling  [Martinusbe]
 33f77a2  regenerate Satan  [Martinusbe]
 6ab08ea     *s: remove despair tc  [Martinusbe]
 f643c8d  generated changelog 0618 Satan  [Martinusbe]
@@ -22,32 +104,28 @@ ea5b83d  Magisk: update zip to v13.0-170617  [Martinusbe]
 ====================
 
 
-   * frameworks/base/
-a73c84b  Night mode auto brightness: code cleanup and improvements [1/2]  [Prema Chand Alugu]
-e02363e  Night auto brightness: restore user brightness values also after reboot  [Prema Chand Alugu]
-b2d0607  Wider night light auto low brightness action  [Prema Chand Alugu]
+   * build/
+0f7a2da  envi: changelog generation added  [Prema Chand Alugu]
    * manifest/
 eb41c44  Track arm-eabi-5.x from tipsylab  [Prema Chand Alugu]
-   * packages/apps/Dialer/
-b556075  Fixed Dialer crash issue when finish dialpad immediately  [Martinusbe]
    * packages/apps/Settings/
-f272ab8  Night mode auto brightness: code cleanup and improvements [2/2]  [Prema Chand Alugu]
-d2e27f9  Night ligh auto brightness: menu improvements  [Prema Chand Alugu]
+6d98985  ChangeLog: Now points to CL in vendor as hotlink  [Prema Chand Alugu]
    * vendor/tipsy/
 ea26d1a  Nova 5.3-Beta 2  [Martinusbe]
+c675798  update changelog  [Prema Chand Alugu]
+280911a  script: give executable permission for changelog  [Prema Chand Alugu]
+749cd6b  script: generate changelog for last 15days  [Prema Chand Alugu]
+3924ef9  Add the    *s list  [Prema Chand Alugu]
+8b64d2c  Update Nova 5.3-beta1  [Prema Chand Alugu]
 ====================
      06-16-2017
 ====================
 
 
-   * build/
-0f7a2da  envi: changelog generation added  [Prema Chand Alugu]
    * manifest/
 e072140  track our Snap  [Martinusbe]
 84495b5  track Snap from Tesla  [Martinusbe]
 6adad00  change tesla remote to n7.1.2  [Martinusbe]
-   * packages/apps/Settings/
-6d98985  ChangeLog: Now points to CL in vendor as hotlink  [Prema Chand Alugu]
    * packages/apps/Snap/
 3de1d36  SnapdragonCamera: Fix ghosting when non-zsl in VGA/QVGA size  [Martinusbe]
 84e8ffe  SnapdragonCamera: Fix live shot image stretch when recording is 4K  [Martinusbe]
@@ -67,17 +145,13 @@ c4b9240  SnapdragonCamera: Reset zoom value when resuming  [Martinusbe]
 263ae52  SnapdragonCamera: Fix capture with flash will get black image.  [Martinusbe]
 077e7a7  SnapdragonCamera: Fix FC cause by Null pointer  [Martinusbe]
 6058b56  SnapdragonCamera: Make copy of location before altering timestamp  [Martinusbe]
-   * vendor/tipsy/
-c675798  update changelog  [Prema Chand Alugu]
-280911a  script: give executable permission for changelog  [Prema Chand Alugu]
-749cd6b  script: generate changelog for last 15days  [Prema Chand Alugu]
-3924ef9  Add the    *s list  [Prema Chand Alugu]
-8b64d2c  Update Nova 5.3-beta1  [Prema Chand Alugu]
 ====================
      06-15-2017
 ====================
 
 
+   * packages/apps/Snap/
+8d0d4a5  Snap: Sign with platform key  [Josue Rivera]
 ====================
      06-14-2017
 ====================
@@ -90,8 +164,6 @@ c675798  update changelog  [Prema Chand Alugu]
 ae9b155  IMS-VT:Process crash during MT_VT call accept scenario  [Martinusbe]
    * packages/apps/Jelly/
 fae85ed  Revert "Add support for WebViews that provide the site's theme color."  [Martinusbe]
-   * packages/apps/Snap/
-8d0d4a5  Snap: Sign with platform key  [Josue Rivera]
    * packages/apps/masquerade/
 de4611a  Add interface to get API version and app authentication status  [Martinusbe]
    * system/sepolicy/
@@ -121,8 +193,11 @@ de4611a  Add interface to get API version and app authentication status  [Martin
 
    * frameworks/base/
 14d16ad  Revert "[DO NOT MERGE] Don't allow permission change to runtime"  [Martinusbe]
+c1c6d67  Revert "Obex: Reduce MTU Size."  [Martinusbe]
    * packages/apps/KernelAdiutor/
 a85796f  Merge pull request #2 from TeslaRom-N/n7.1.1  [GitHub]
+   * packages/apps/Snap/
+84e0760  Snap: Simulate back button press when menu back button is pressed  [Josue Rivera]
    * vendor/tipsy/
 0b64330  Testing v6.2  [Martinusbe]
 37135f9  Magisk: update zip to v13-170612  [Martinusbe]
@@ -132,135 +207,3 @@ ec74d24  Magisk: update apk to v5.0-170612  [Martinusbe]
 ====================
 
 
-   * frameworks/base/
-c1c6d67  Revert "Obex: Reduce MTU Size."  [Martinusbe]
-   * packages/apps/Snap/
-84e0760  Snap: Simulate back button press when menu back button is pressed  [Josue Rivera]
-====================
-     06-10-2017
-====================
-
-
-====================
-     06-09-2017
-====================
-
-
-   * frameworks/base/
-7b0739c  Add ability to configure battery saver mode color (1/2) Adapted for marshmallow by @KreAch3R  [Prema Chand Alugu]
-   * packages/apps/Tavern/
-d0c6ff0  GZR Colors into default in the ColorPicker  [Prema Chand Alugu]
-2223dd7  Add ability to configure battery saver mode color (2/2)  [Prema Chand Alugu]
-   * system/core/
-685442d  system: core: sched: Fix missing }  [Martinusbe]
-====================
-     06-08-2017
-====================
-
-
-   * build/kati/
-a0bfc98  Merge remote-tracking branch 'google-kati/master' into testing  [Prema Chand Alugu]
-   * frameworks/base/
-c8d49bb  fingerprint: Speed up wake-and-unlock scenario  [Martinusbe]
-b741dcf  Merge the two night light options into one  [Prema Chand Alugu]
-4545682  Night mode tile brightness: allow to set a different value [1/2]  [Prema Chand Alugu]
-d96c1f5  Night tile: automatically set a lower brightness when active [1/2]  [Prema Chand Alugu]
-7b1e571  Night auto brightness: restore user brightness values also after reboot  [Prema Chand Alugu]
-eec4bba  Wider night light auto low brightness action  [Prema Chand Alugu]
-42665f8  fingerprint: handle PerformanceStats NULL pointers  [Martinusbe]
-   * manifest/
-d4dfcc1  track kati testing  [Prema Chand Alugu]
-   * packages/apps/Jelly/
-22cb565  Implement history management through a ContentProvider.  [Danny Baumann]
-   * packages/apps/Settings/
-dee9645  Night light brightness options  [Prema Chand Alugu]
-715bc5a  Settings: enable fast scroll for all app list views  [Martinusbe]
-   * system/core/
-7f4d84a  sched: Update on par with Lineage  [Martinusbe]
-====================
-     06-07-2017
-====================
-
-
-   * frameworks/opt/slim/
-085e5dd  Fix actions for screen off gestures  [Martinusbe]
-   * packages/apps/Settings/
-05fddd4  Settings: fix FC if opening Audio Settings after enabling DND  [Prema Chand Alugu]
-   * vendor/tipsy/
-549f5f2  Merge branch 'testing' of https://github.com/TipsyOs/vendor_tipsy into linaro  [Martinusbe]
-dee21d2  Testing 6.1  [Martinusbe]
-2b32992  Update GZRApp 3.1  [Prema Chand Alugu]
-5f3f84e  Update Nova 5.2  [Prema Chand Alugu]
-====================
-     06-06-2017
-====================
-
-
-   * build/
-124b137  [DO NOT MERGE] Update Security String to 2017-06-05 for nyc-dev  [Martinusbe]
-8afbe01  [DO NOT MERGE] Update Security String to 2017-06-01 for nyc-dev  [Martinusbe]
-6e762fe  Version bump to NJH47B  [Martinusbe]
-   * frameworks/base/
-681e6b6  Fix issue with saving admins before finishing loading.  [Martinusbe]
-e04c6f9  resolve merge conflicts of ad4aa1ce7d3d to nyc-mr1-dev fix conflict in nyc-mr2-release (cherry picked from commit f806d65e615b942c268a5f68d44bde9d55634972)  [Martinusbe]
-c409ce0  Reduce hwui CPU time by using glDrawRangeElements  [Martinusbe]
-fec4668  Optimised hwui rounded corners shader  [Martinusbe]
-   * hardware/qcom/audio-caf/msm8996/
-f865aba  msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound  [Martinusbe]
-668a640  audio policy: reduce audio routing commands trafic  [Martinusbe]
-   * hardware/qcom/display-caf/msm8996/
-02bd837  Merge "sdm: Set layer frame rate if not specified."  [Martinusbe]
-a10c771  sdm: Increase SurfaceFlinger fd limits  [Martinusbe]
-   * hardware/qcom/media-caf/msm8996/
-81e888e  mm-video-v4l2: venc: Initialize allocate native handle variable  [Martinusbe]
-6ee7681  mm-video-v4l2: Initialize extradata fd to -1  [Martinusbe]
-6c4b47b  mm-video-v4l2: venc: Fix double close on fd  [Martinusbe]
-80e456d  mm-video-v4l2: Close output buffer dup fd only if valid  [Martinusbe]
-2935552  mm-video-v4l2: create pthread with valid file descriptors  [Martinusbe]
-37abb12  Merge tag 'LA.UM.5.5.r1-03800-8x96.0' into cm-14.1-caf-8996  [Martinusbe]
-3355d5e  mm-video-v4l2: vidc: correct the crop update  [Martinusbe]
-34ed4d5  Merge 69058718422addd0dc9c2ebfc6857d0ebd22d6ca on remote branch  [Martinusbe]
-   * libcore/
-748ecd8  Reject ftp URLConnection containing /r/n in user info.  [Martinusbe]
-03ea601  Test for rejection of ftp URL with /r/n in userinfo  [Martinusbe]
-   * manifest/
-5fd5211  7.1.2_r17  [Martinusbe]
-de7620f  our libcore  [Martinusbe]
-c7ab441  our system/bt  [Martinusbe]
-   * packages/apps/Bluetooth/
-600d865  Merge remote-tracking branch 'upstream/test' into HEAD  [Martinusbe]
-9d274ac  BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09  [Dan Pasanen]
-9efb588  Merge tag 'android-7.1.2_r17' into cm-14.1  [Dan Pasanen]
-   * packages/apps/KernelAdiutor/
-d386afb  Merge pull request #1 from Druboo666/n7.1.1  [GitHub]
-   * system/bt/
-7d25289  Check LE advertising data length before caching advertising records  [Martinusbe]
-   * system/core/
-f373519  Fix out of bound read in libziparchive  [Martinusbe]
-a4cfa59  libcutils: remove schedgroup fds [DO NOT MERGE]  [Martinusbe]
-   * vendor/tipsy/
-ec0b2a7  Do not sign the prebuilt apps again  [Prema Chand Alugu]
-354bae0  GZRoms App - signed v3.0  [Prema Chand Alugu]
-====================
-     06-05-2017
-====================
-
-
-   * packages/apps/Jelly/
-e28fd6c  Jelly: Add HTTP auth login support  [Luca Stefani]
-====================
-     06-04-2017
-====================
-
-
-   * packages/apps/Jelly/
-7ac5399  Add support for WebViews that provide the site's theme color.  [Danny Baumann]
-   * packages/apps/KernelAdiutor/
-0033068  CPU: Stop assuming all 4 core cpus are big/little  [Druboo666]
-4f69fcc  Revert "Fix calculation of big.LITTLE cores on SD82*"  [Druboo666]
-   * packages/apps/OmniSwitch/
-13cbc65  Automatic translation import  [Alx31]
-4fca051  OmniSwitch: cleanup BitmapUtils  [Alx31]
-   * packages/services/OmniJaws/
-017c3b7  Automatic translation import  [Alx31]
-efe3cb0  OmniJaws: update README.md to include OWM API key usage info  [Alx31]
