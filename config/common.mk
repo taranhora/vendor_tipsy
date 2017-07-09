@@ -155,10 +155,12 @@ PRODUCT_PACKAGES += \
     mkfs.exfat
 endif
 
+ifeq ($(DEFAULT_ROOT_METHOD),supersu)
 # SuperSU
 PRODUCT_COPY_FILES += \
   vendor/validus/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
    vendor/validus/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+endif
 
 ifeq ($(DEFAULT_ROOT_METHOD),rootless)
 else
