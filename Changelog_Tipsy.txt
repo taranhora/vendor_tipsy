@@ -1,209 +1,223 @@
 ====================
+     07-09-2017
+====================
+
+
+====================
+     07-08-2017
+====================
+
+
+   * bionic/
+5b286f48b  linker: remove link from external library on unload  [Prema Chand Alugu]
+   * build/
+3e4d8a12e  Make change and version bump to NHG47O  [Prema Chand Alugu]
+4dcc52954  [DO NOT MERGE]Updating security string to 2017-07-05 on nyc-dev bug:38342695 (cherry picked from commit 96d958c34509a65e5f7787945f9923fb44c42f05)  [Prema Chand Alugu]
+72120d3cd  [DO NOT MERGE]Updating security string to 2017-07-01 on nyc-dev bug:38342695 (cherry picked from commit 77dad3dfcd677136f6657e1b95dd84ed1be1d728)  [Prema Chand Alugu]
+90d0c4294  NHG47N  [Prema Chand Alugu]
+b76d29a1d  NHG47M  [Prema Chand Alugu]
+   * frameworks/av/
+e6f255ee7  Modifying MetaData invalidates previous char*  [Prema Chand Alugu]
+033a365e2  Fix memory leak in error case  [Prema Chand Alugu]
+093f02f8b  Limit ogg packet size  [Prema Chand Alugu]
+8ce238f9c  Prevent OOB write in soft_avc encoder  [Prema Chand Alugu]
+b6527f3b7  Don't allow using or allocating a buffer after the first state transition  [Prema Chand Alugu]
+   * frameworks/base/
+bed0a448377  ZygoteInit: Remove CAP_SYS_RESOURCE  [Prema Chand Alugu]
+4e2582182b1  system_server: add CAP_SYS_PTRACE  [Prema Chand Alugu]
+4413cfd2fcc  Fix re-enabling alert window appop after leaving VR mode.  [Prema Chand Alugu]
+449c0fadd00  Make a11y node info parceling more robust  [Prema Chand Alugu]
+f75557a5fa5  Theme: restore default colors for Light theme [1/2]  [Prema Chand Alugu]
+   * frameworks/native/
+342aaf9ca  libgui: check for invalid slot in attachBuffer  [Prema Chand Alugu]
+8fc83c8e6  libgui: Check slot received from IGBP in Surface  [Prema Chand Alugu]
+794a35777  ui: Fix bad size check in Fence::unflatten  [Prema Chand Alugu]
+   * hardware/qcom/audio-caf/msm8998/
+6939649bb  Merge remote-tracking branch 'oss/oneplus/QC8998_N_7.1' into HEAD  [Martinusbe]
+   * hardware/qcom/display-caf/msm8998/
+77543cf23  Merge remote-tracking branch 'oss/oneplus/QC8998_N_7.1' into n7.1-caf-8998  [Martinusbe]
+   * hardware/qcom/media-caf/msm8998/
+85921d378  Merge remote-tracking branch 'oss/oneplus/QC8998_N_7.1' into HEAD  [Martinusbe]
+   * libcore/
+ce982ed5e  Proper fix for rejecting ftp URL with /r/n.  [Prema Chand Alugu]
+   * packages/apps/Jelly/
+7b4ecc7  Jelly: Add save form data setting  [Prema Chand Alugu]
+3e2ed60  Jelly: add Do Not Track setting  [Prema Chand Alugu]
+554f7e8  Jelly: Update android tools build  [Prema Chand Alugu]
+89617fc  Jelly: Enable safe browsing  [Prema Chand Alugu]
+84e2cfd  Automatic translation import  [Prema Chand Alugu]
+b2bd719  Jelly: Guess filename from URL  [Prema Chand Alugu]
+6a5aaa4  Jelly: Allow media scan on download  [Prema Chand Alugu]
+942af3b  Jelly: Show download notification on completed  [Prema Chand Alugu]
+   * packages/apps/Settings/
+f1099c095  Fix phishing attack in ChooseLockGeneric  [Prema Chand Alugu]
+0ebd1fa3b  resolve merge conflicts of 3964c51bf2 to nyc-dev  [Prema Chand Alugu]
+   * packages/apps/Tavern/
+8530633  Theme: restore default colors for Light theme [2/2]  [Prema Chand Alugu]
+   * packages/providers/MediaProvider/
+76bcbed  [DO NOT MERGE] Enforce user separation on external storage  [Prema Chand Alugu]
+   * system/sepolicy/
+3b7f75d  system_server: replace sys_resource with sys_ptrace  [Prema Chand Alugu]
+====================
+     07-07-2017
+====================
+
+
+====================
+     07-06-2017
+====================
+
+
+   * external/skia/
+517fcaf66  Set a limit on the size for BMP images DO NOT MERGE  [Josue Rivera]
+   * external/stagefright-plugins/
+f795440  FFmpegExtractor: Fix "supported" typo in logs  [Josue Rivera]
+   * hardware/qcom/audio-caf/msm8998/
+0549bbbb7  Synchronize codes for OxygenOS 4.5.5  [shankai]
+   * packages/providers/DownloadProvider/
+76227aa  DO NOT MERGE Deleting downloads for removed uids on downloadprovider start  [Josue Rivera]
+   * vendor/tipsy/
+ebd8d03  build: qcom_target: Define MASTER_SIDE_CP_TARGET_LIST  [Martinusbe]
+====================
+     07-05-2017
+====================
+
+
+====================
+     07-04-2017
+====================
+
+
+====================
+     07-03-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8916/
+371ff65df  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916  [Josue Rivera]
+f1e8e10f8  aenc-aac: bounds checking  [Josue Rivera]
+   * hardware/qcom/keymaster/
+c83f560  keymaster: add msm8996 into support list  [Martinusbe]
+79c9048  keymaster: add msm8998 into support list  [Martinusbe]
+   * manifest/
+2015c49  press save y before pushing next time u gimp.  [Alx31]
+57a0af3  add & track 8998 HALs from tesla  [Alx31]
+2859d19  track our system_netd,system_ qcom & qcom_camera  [Alx31]
+9447c50  track our mediaprovider  [Alx31]
+====================
+     07-02-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8998/
+227036d1e  hal: Allow building hardware audio encoders  [Martinusbe]
+9e7f3aa5a  fix build error  [Martinusbe]
+2948e7090  audio: Use direct    * pathmap  [Martinusbe]
+   * hardware/qcom/display-caf/msm8998/
+57c7c0e49  Don't build lights module if vendor supplies it  [Martinusbe]
+b40bed75f  display: Use    * pathmap  [Martinusbe]
+   * hardware/qcom/fm/
+b488cea  Automatic translation import  [Josue Rivera]
+   * hardware/qcom/media-caf/msm8998/
+2e56a44d6  mm-video: Disable proprietary extension  [Martinusbe]
+efc4d64c0  venc: Fix VQZip issue  [Martinusbe]
+af5a982a4  media: Avoid collision with FFMPEG plugin  [Martinusbe]
+ebd720eea  vidc: Fix makefiles  [Martinusbe]
+a023385c1  media: Use    * pathmap  [Martinusbe]
+====================
+     07-01-2017
+====================
+
+
+   * hardware/qcom/bt-caf/
+cbf82b7  Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD  [Josue Rivera]
+39c3269  Apply the Cherokee's mechanism of stopping hci_filter to ROME  [Josue Rivera]
+====================
+     06-30-2017
+====================
+
+
+====================
+     06-29-2017
+====================
+
+
+   * frameworks/base/
+d9068b38bfe  Operator specific SIM icon customisation.  [Prema Chand Alugu]
+9a0d7c3618d  Add VoLTE preferred function control flag  [Prema Chand Alugu]
+c0d86481b41  telephony: Make the disconnect cause distinguishable  [Prema Chand Alugu]
+   * frameworks/opt/telephony/
+44bea26b  opt_telephony: Inline with LineageOS  [Martinusbe]
+22f233c4  Error pop up is displayed when interrogating call forward menu  [Martinusbe]
+c6a0e56d  Operator specific sim icon customisation.  [Martinusbe]
+c81f63a1  Telephony: Use data and voice states for SPN  [Martinusbe]
+14e084cc  Telephony: Reduce back to back same APN activation delay.  [Martinusbe]
+43de86c0  MSIM: Clear status counter if session failed  [Martinusbe]
+88eae937  Move main thread in IPBIM to other thread to fix deadlock.  [Martinusbe]
+5f82c6c9  Set Cdma roaming preference only for first time.  [Martinusbe]
+af07f003  IMS: Add the support of IMS call preferred capability  [Martinusbe]
+7035a4f6  Support for emergency redial in multisim  [Martinusbe]
+52beca46  Telephony: Add CallFailCause values for clear code.  [Martinusbe]
+0ebc513e  Add query operation when updated sim contact.  [Martinusbe]
+c5d407d8  Telephony: Only one short sms can be read if long sms copied to CT card  [Martinusbe]
+d7c04b03  IMS: Fix call forward indicator issue for video calls  [Martinusbe]
+65d2773a  IMS: Unregister for data enabled change with default phone  [Martinusbe]
+====================
+     06-28-2017
+====================
+
+
+====================
+     06-27-2017
+====================
+
+
+   * device/qcom/common/
+98b5e8a  power: add msm8998 support from CAF tag LA.UM.5.7.r2-00900-8x98.0  [Martinusbe]
+   * external/stagefright-plugins/
+0c8eedb  ffmpeg-extractor: StageFright supports Opus files  [Josue Rivera]
+253eb18  Revert "FFmpegExtractor: Don't use our extractor when we agree with StageFright"  [Josue Rivera]
+   * hardware/qcom/camera/
+a86e83b  msm8998: don't enable sdclang  [Martinusbe]
+   * packages/providers/MediaProvider/
+79c49ac  MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest  [Martinusbe]
+d27079e  Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.  [Martinusbe]
+7277295  Music: Fix force closed when plug out the SD card while music is playing.  [Martinusbe]
+e8762ae  MediaProvider: Fix SQLiteDiskIOException.  [Martinusbe]
+4fa5f66  Revert "Fix check for existence of parent"  [Martinusbe]
+37e1764  Revert "MediaProvider: Fix where condition of delete queries"  [Martinusbe]
+   * system/qcom/
+a31dd35  Merge remote-tracking branch 'los/cm-14.1' into HEAD  [Martinusbe]
+   * vendor/tipsy/
+ed3d354  tipsy build: add qcom msm8998 target  [Martinusbe]
+a6904e6  Testing 6.4  [Martinusbe]
+====================
+     06-26-2017
+====================
+
+
+   * packages/providers/ContactsProvider/
+783b44d7  Fix merge derp  [Griffin Millender]
+   * vendor/tipsy/
+9bfc962  Magisk-v13.0-170624.zip  [Martinusbe]
+b1cc1c9  MagiskManager-v5.0.2-170624.apk  [Martinusbe]
+2e0b65d  let's get an cheeseburger  [Martinusbe]
+3946ae0  changelog generated 06/25  [Martinusbe]
+====================
      06-25-2017
 ====================
 
 
-   * frameworks/base/
-93cc9f6  Added NULL check for Action Bar  [Martinusbe]
-cc0d4bc  Aapt2: Fix png leak  [Martinusbe]
-3eb19bc  Destroy Allocation right away on exception  [Martinusbe]
-754171d  SymbolComparator operator() is missing const  [Martinusbe]
-====================
-     06-24-2017
-====================
-
-
-   * frameworks/av/
-abc2233  Revert "Camera: Use HAL1 by default"  [Martinusbe]
-1e12283  libstagefright: encoder must exist when source starting  [Martinusbe]
-6c964d6  stagefright: don't assume 16 bit format  [Martinusbe]
-   * system/core/
-070d5e2  Filter GalleryDatab*  [Martinusbe]
-b70c4e7  Silence spammy logs from camera blobs (AEC_PORT and mm-camera)  [Martinusbe]
-====================
-     06-23-2017
-====================
-
-
-   * packages/providers/MediaProvider/
-a3c2d41  MediaProvider: Fix where condition of delete queries  [Josue Rivera]
-4dc5ee7  New Material icon  [Josue Rivera]
-====================
-     06-22-2017
-====================
-
-
-   * hardware/qcom/display-caf/msm8994/
-7861c4b  Fix duplicate copy file rules  [Martinusbe]
-1ff05df  libmemtrack: Fix integer overflow in kgsl function  [Martinusbe]
-108aebe  hwcomposer: Fix regression in hwc_sync  [Martinusbe]
-   * hardware/qcom/media-caf/msm8994/
-0ef6b94  vdec:Do not call stream_off on input port if all EBD's are not flushed.  [Martinusbe]
-   * vendor/tipsy/
-63335af  NovaLauncher_5.3-beta3  [Martinusbe]
-fb5ba80  Nova Google Companion v1.1  [Martinusbe]
-====================
-     06-21-2017
-====================
-
-
-   * hardware/qcom/display-caf/msm8916/
-b7e7373  hwcomposer: Fix regression in hwc_sync  [Josue Rivera]
-   * hardware/qcom/display-caf/msm8974/
-9105770  hwcomposer: Fix regression in hwc_sync  [Josue Rivera]
-   * system/core/
-af87f26  init: Run restorecon_recursive asynchronously  [Martinusbe]
-aee320d  healthd: fix include paths  [Martinusbe]
-   * vendor/tipsy/
-9d2e92e  Add Nova Google Companion 1.0  [Prema Chand Alugu]
-====================
-     06-20-2017
-====================
-
-
-   * hardware/ril/
-1bbba98  ril: fix a memory leak.  [Josue Rivera]
-   * hardware/ril-caf/
-1a0c443  ril: fix a memory leak.  [Josue Rivera]
-   * packages/apps/Nfc/
-7d4e3af  NfcNci: make T3T/Nfc-F HCE optional  [Josue Rivera]
-====================
-     06-19-2017
-====================
-
-
-   * vendor/tipsy/
-0371054  Testing 6.3  [Martinusbe]
-51d4eb3  regenerated changelog  [Martinusbe]
-bbd8344  changelog_tipsy: more info and bling  [Martinusbe]
-====================
-     06-18-2017
-====================
-
-
-   * frameworks/base/
-58e7579  QS: make NFC & usb_tether magically appear  [Martinusbe]
-a73c84b  Night mode auto brightness: code cleanup and improvements [1/2]  [Prema Chand Alugu]
-e02363e  Night auto brightness: restore user brightness values also after reboot  [Prema Chand Alugu]
-b2d0607  Wider night light auto low brightness action  [Prema Chand Alugu]
-   * packages/apps/Dialer/
-b556075  Fixed Dialer crash issue when finish dialpad immediately  [Martinusbe]
-   * packages/apps/OmniStyle/
-a87049b  header: add Satan red beer for this weeks release  [Martinusbe]
-   * packages/apps/Settings/
-f272ab8  Night mode auto brightness: code cleanup and improvements [2/2]  [Prema Chand Alugu]
-d2e27f9  Night ligh auto brightness: menu improvements  [Prema Chand Alugu]
-   * vendor/tipsy/
-33f77a2  regenerate Satan  [Martinusbe]
-6ab08ea     *s: remove despair tc  [Martinusbe]
-f643c8d  generated changelog 0618 Satan  [Martinusbe]
-ea5b83d  Magisk: update zip to v13.0-170617  [Martinusbe]
-16985c8  Magisk: update Manager apk to 5.0.2-170617  [Martinusbe]
-====================
-     06-17-2017
-====================
-
-
    * build/
-0f7a2da  envi: changelog generation added  [Prema Chand Alugu]
-   * manifest/
-eb41c44  Track arm-eabi-5.x from tipsylab  [Prema Chand Alugu]
-   * packages/apps/Settings/
-6d98985  ChangeLog: Now points to CL in vendor as hotlink  [Prema Chand Alugu]
-   * vendor/tipsy/
-ea26d1a  Nova 5.3-Beta 2  [Martinusbe]
-c675798  update changelog  [Prema Chand Alugu]
-280911a  script: give executable permission for changelog  [Prema Chand Alugu]
-749cd6b  script: generate changelog for last 15days  [Prema Chand Alugu]
-3924ef9  Add the    *s list  [Prema Chand Alugu]
-8b64d2c  Update Nova 5.3-beta1  [Prema Chand Alugu]
-====================
-     06-16-2017
-====================
-
-
-   * manifest/
-e072140  track our Snap  [Martinusbe]
-84495b5  track Snap from Tesla  [Martinusbe]
-6adad00  change tesla remote to n7.1.2  [Martinusbe]
-   * packages/apps/Snap/
-3de1d36  SnapdragonCamera: Fix ghosting when non-zsl in VGA/QVGA size  [Martinusbe]
-84e8ffe  SnapdragonCamera: Fix live shot image stretch when recording is 4K  [Martinusbe]
-bfd628d  SnapdragonCamera: Fix photo reversed when enable selfie Mirror  [Martinusbe]
-260b7e2  SnapdragonCamera: Fix photo reversed when enable selfie Mirror  [Martinusbe]
-d88e114  SnapdragonCamera: Fix preview in wrong size  [Martinusbe]
-25412cd  SnapdragonCamera: Fix front camera preview flipped  [Martinusbe]
-bf180f7  SnapdragonCamera: Fix preview is flipped on 8996  [Martinusbe]
-418b113  SnapdragonCamera: Camera1 Selfie Mirror orientation check  [Martinusbe]
-37a114e  SnapdragonCamera: Fix Camera1 force close when refocusing the picture.  [Martinusbe]
-4602c29  SnapdragonCamera: Change video snapshot picture size logic  [Martinusbe]
-6d8a2ef  SnapdragonCamera: Avoid cancel AF shortly after trigger  [Martinusbe]
-6680082  SnapdragonCamera: Fix crash during UI stress test  [Martinusbe]
-d2dbe2a  SnapdragonCamera: Fix OutOfBoundsException in monkey test  [Martinusbe]
-c559745  SnapdragonCamera: Fix FC for NullPointerException  [Martinusbe]
-c4b9240  SnapdragonCamera: Reset zoom value when resuming  [Martinusbe]
-263ae52  SnapdragonCamera: Fix capture with flash will get black image.  [Martinusbe]
-077e7a7  SnapdragonCamera: Fix FC cause by Null pointer  [Martinusbe]
-6058b56  SnapdragonCamera: Make copy of location before altering timestamp  [Martinusbe]
-====================
-     06-15-2017
-====================
-
-
-   * packages/apps/Snap/
-8d0d4a5  Snap: Sign with platform key  [Josue Rivera]
-====================
-     06-14-2017
-====================
-
-
+1c528e75c  envi: changelog generation added  [Alx31]
    * frameworks/base/
-6117bb3  Revert "Add support for page theme color to WebView and WebChromeClient."  [Martinusbe]
-   * packages/apps/Dialer/
-5aa0e56  Dialer: lock screen appear before incoming call screen  [Martinusbe]
-ae9b155  IMS-VT:Process crash during MT_VT call accept scenario  [Martinusbe]
-   * packages/apps/Jelly/
-fae85ed  Revert "Add support for WebViews that provide the site's theme color."  [Martinusbe]
-   * packages/apps/masquerade/
-de4611a  Add interface to get API version and app authentication status  [Martinusbe]
-   * system/sepolicy/
-6ff3e5d  Add policy to fix interfacer derp on boot  [Martinusbe]
-====================
-     06-13-2017
-====================
-
-
-   * frameworks/base/
-39a1d53  SlimDoze: Fix gesture triggers not following Ambient display  [Martinusbe]
-6c17e1b  Add support for page theme color to WebView and WebChromeClient.  [Martinusbe]
-   * manifest/
-010df2d  track Jelly  [Martinusbe]
-   * packages/apps/Jelly/
-5563e1b  home: default to google  [Martinusbe]
-   * packages/apps/Snap/
-9795b7f  Add orientation correction for landscape devices  [Josue Rivera]
-   * system/bt/
-7ff8779  bt: Disable AVRCP 1.6  [Martinusbe]
-   * vendor/tipsy/
-4ebcd8b  build Jelly  [Martinusbe]
-====================
-     06-12-2017
-====================
-
-
-   * frameworks/base/
-14d16ad  Revert "[DO NOT MERGE] Don't allow permission change to runtime"  [Martinusbe]
-c1c6d67  Revert "Obex: Reduce MTU Size."  [Martinusbe]
-   * packages/apps/KernelAdiutor/
-a85796f  Merge pull request #2 from TeslaRom-N/n7.1.1  [GitHub]
-   * packages/apps/Snap/
-84e0760  Snap: Simulate back button press when menu back button is pressed  [Josue Rivera]
-   * vendor/tipsy/
-0b64330  Testing v6.2  [Martinusbe]
-37135f9  Magisk: update zip to v13-170612  [Martinusbe]
-ec74d24  Magisk: update apk to v5.0-170612  [Martinusbe]
-====================
-     06-11-2017
-====================
-
-
+9bade0d69d1  Added NULL check for Action Bar  [Alx31]
+57d2465a209  Aapt2: Fix png leak  [Alx31]
+43a03044ba0  Destroy Allocation right away on exception  [Alx31]
+2d6769433aa  SymbolComparator operator() is missing const  [Alx31]
+   * hardware/qcom/fm/
+3ceb173  Automatic translation import  [Josue Rivera]
+4c290be  Automatic translation import  [Josue Rivera]
+1cf6ddc  Automatic translation import  [Josue Rivera]
+   * packages/services/OmniJaws/
+54269be  Automatic translation import  [Alx31]
