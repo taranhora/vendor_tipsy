@@ -104,7 +104,6 @@ PRODUCT_PACKAGES += \
     Turbo \
     Nova \
     NovaGoogleCompanion \
-    adaway \
     AmazeFileManager \
     GZRoms \
     Jelly
