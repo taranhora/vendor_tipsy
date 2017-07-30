@@ -166,8 +166,8 @@ endif
 ifeq ($(DEFAULT_ROOT_METHOD),supersu)
 # SuperSU
 PRODUCT_COPY_FILES += \
-  vendor/validus/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
-   vendor/validus/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+  vendor/tipsy/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+   vendor/tipsy/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 endif
 
 # Explict rootless defined, or none of the root methods defined,
