@@ -1,8 +1,95 @@
 ====================
+     08-09-2017
+====================
+
+
+   * build/
+6864c33  Version bump to NJH47F  [Martinusbe]
+77a99eb  [DO NOT MERGE] Updating Security String to 2017-08-05 on nyc-dev bug:62388772 (cherry picked from commit 2b93753bc4025e92e6b6c8ed510bc9b3f8faff4d)  [Martinusbe]
+ea6a4a3  [DO NOT MERGE] Updating Security String to 2017-08-01 on nyc-dev bug:62388772 (cherry picked from commit a847c0b23ce761b09148f4f8fd6c9b473a46f531)  [Martinusbe]
+da5a2ad  Version bump to NJH47D  [Martinusbe]
+   * frameworks/av/
+cd20ae7  Fix security vulnerability: Equalizer setParameter memory overflow  [Martinusbe]
+1f8f0f6  RESTRICT AUTOMERGE Check the buffer index from acquireBuffer  [Martinusbe]
+84527e0  better manage buffer for libstagefright_soft_mpeg4enc  [Martinusbe]
+4e7dfc0  m4v_h263: update width/height only when they are valid.  [Martinusbe]
+87671d5  m4v_h263: check header first before decoding a frame.  [Martinusbe]
+c2a6551  Fix integer overflow in mediadrmserver  [Martinusbe]
+5f749de  Fix potential leak  [Martinusbe]
+35669cf  DO NOT MERGE Don't leak `this` out of GraphicBufferSource ctor  [Martinusbe]
+195103f  CameraService: Fix cameraId type of onDeviceStatusChanged  [Martinusbe]
+   * frameworks/base/
+7dbdbcd  Close connection before retrying  [Martinusbe]
+fd7444c  Fix issue with saving admins before finishing loading.  [Martinusbe]
+edb4b33  resolve merge conflicts of ad4aa1ce7d3d to nyc-mr1-dev fix conflict in nyc-mr2-release  [Martinusbe]
+22c5b74  Camera2 legacy: retry EGL config without EGL_RECORDABLE_ANDROID  [Martinusbe]
+1bf8770  hardware: Camera: Return -1 if value does not exist  [Martinusbe]
+   * frameworks/native/
+311e9c9  fix race condition that can cause a use after free  [Martinusbe]
+   * manifest/
+e11e135  7.1.2_r29  [Martinusbe]
+====================
+     08-08-2017
+====================
+
+
+====================
+     08-07-2017
+====================
+
+
+   * frameworks/base/
+43d04d1  SEEMP: Adding auth framework for outgoing SMS messages.  [Martinusbe]
+====================
+     08-06-2017
+====================
+
+
+   * packages/apps/Dialer/
+25bbdc6  Dialer: Fix compilation warnings  [Martinusbe]
+   * packages/apps/Snap/
+cd40345  Snap: fix low resolution front camera switch icon  [Martinusbe]
+c1e7e16  Automatic translation import  [Martinusbe]
+a5ff07b  Automatic translation import  [Martinusbe]
+   * vendor/tipsy/
+e47db81  testing v6.7  [Martinusbe]
+3de1abb  qcom: Allow setting custom audio, display, and media HALs  [Martinusbe]
+07a63d9  templates: Update to show usage for new extract_files features  [Martinusbe]
+5ae1f5d  extract_files: Add support for paths without system/  [Martinusbe]
+9f17c6e  extract_files: Add support for specifying blob sections  [Martinusbe]
+a21537f  extract_utils: support extracting directly from an ota zip  [Martinusbe]
+136e123  Revert "Revert "vendor: tipsy: sepolicy: Allow rw-access to system_app_data_file""  [Martinusbe]
+6547b6d  extract_utils: Fix cleanup variables assigment  [Martinusbe]
+d169768  templates: Remove empty cat << EOF  [Martinusbe]
+630888a  charger: Fix small battery capacity font  [Martinusbe]
+24a8295  kernel: Add savedefconfig target  [Martinusbe]
+====================
+     08-05-2017
+====================
+
+
+====================
+     08-04-2017
+====================
+
+
+====================
+     08-03-2017
+====================
+
+
+====================
+     08-02-2017
+====================
+
+
+====================
      08-01-2017
 ====================
 
 
+   * vendor/tipsy/
+3d443b4  update changelog  [Prema Chand Alugu]
 ====================
      07-31-2017
 ====================
@@ -33,98 +120,6 @@
 ====================
 
 
-   * frameworks/base/
-f8df5dbadc6  Expose screen pinning dialog background and text color  [Martinusbe]
    * packages/apps/Settings/
-73ac815f5  SimSettings: avoid NPE  [Martinusbe]
-57fbffb3b  Optimized Code: call direct method to get integer extra  [Martinusbe]
-   * packages/apps/masquerade/
-fc35e92  JobService: Use a ContentObserver to check for force authorisation of packages  [Martinusbe]
-   * system/sepolicy/
-e3456af  interfacer: Allow interfacer to find content_service  [Martinusbe]
-====================
-     07-25-2017
-====================
-
-
-   * hardware/qcom/fm/
-b3b28cc  Automatic translation import  [Josue Rivera]
-a62728c  FM: Use some sane colors  [Josue Rivera]
-   * packages/apps/Camera2/
-af3d5187a  Automatic translation import  [Josue Rivera]
-2d4becdd0  Automatic translation import  [Josue Rivera]
-f7167a20d  Automatic translation import  [Josue Rivera]
-7cddf2c7a  Automatic translation import  [Josue Rivera]
-   * packages/apps/Settings/
-02b586203  MSIM: Fix user set DDS sub in hotswap cases.  [Martinusbe]
-   * vendor/qcom/opensource/dataservices/
-8c598b4  datatop: Remove unused variables from datatop_ip_table_poll.c  [Josue Rivera]
-2e9f0a5  datatop: Fix out_dir array empty content verification  [Josue Rivera]
-====================
-     07-24-2017
-====================
-
-
-   * vendor/tipsy/
-44e2d634  update changelog for v6.6  [Martinusbe]
-====================
-     07-23-2017
-====================
-
-
-   * frameworks/base/
-90cc5b66772  Tipsy Logo: Color picker [1/2]  [Prema Chand Alugu]
-   * packages/apps/Tavern/
-2cdd93d  Tipsy Logo: Color picker [2/2]  [Prema Chand Alugu]
-====================
-     07-22-2017
-====================
-
-
-   * frameworks/base/
-17d9e0ac9a1  BootReceiver: check console-ramoops-0  [Martinusbe]
-b6b267e9db5  ScreenCap : Add jpeg support  [Martinusbe]
-a80011b5a63  SystemUI: Fix Notification Background Color Issue  [Martinusbe]
-68c38da551f  frameworks/base: reduce the setTransactions  [Martinusbe]
-   * frameworks/native/
-4ceda1cc6  Surface: Use async lock/unlock in copyBlt  [Martinusbe]
-1a9d31292  Surface: Ensure synchronisation of copyBlt  [Martinusbe]
-4bb3babb7  surfaceflinger: Validate setposition parameters  [Martinusbe]
-313cf74c8  sf: Fix GPU coordinates computation.  [Martinusbe]
-6a98e501f  sf: Limit co-ordinates difference fix for high res panel  [Martinusbe]
-7c217e4fd  surfaceflinger: Fix continuous SF dump.  [Martinusbe]
-   * packages/apps/Snap/
-368e4d4e8  Revert some permissions related changes  [Martinusbe]
-9be0b521a  Add overlay for restarting camera preview for additional cameras  [Martinusbe]
-5279f354d  Automatic translation import  [Martinusbe]
-a22ff4a51  Automatic translation import  [Martinusbe]
-   * vendor/tipsy/
-7efef1a1  oops, this is testing  [Martinusbe]
-26886556  Magisk: update zip to 13.3  [Martinusbe]
-467ca9be  Magisk: update apk to 5.1.1  [Martinusbe]
-====================
-     07-21-2017
-====================
-
-
-   * frameworks/base/
-b370a4a138e  PowerProfile: allow overriding default power profile  [Martinusbe]
-====================
-     07-20-2017
-====================
-
-
-   * hardware/qcom/audio-caf/msm8998/
-2a73b55e1  Revert "hal: Allow building hardware audio encoders"  [Martinusbe]
-====================
-     07-19-2017
-====================
-
-
-====================
-     07-18-2017
-====================
-
-
-   * bootable/recovery/
-cae9a3b  updater: Allow devices to suppress BLKDISCARD  [Martinusbe]
+73ac815  SimSettings: avoid NPE  [Martinusbe]
+57fbffb  Optimized Code: call direct method to get integer extra  [Martinusbe]
