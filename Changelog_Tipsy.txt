@@ -1,4 +1,132 @@
 ====================
+     08-20-2017
+====================
+
+
+   * frameworks/base/
+b5e2055  Tipsy Logo: default logos color filter to white  [Prema Chand Alugu]
+5a68391  BatteryService: add dash charging support  [Martinusbe]
+====================
+     08-19-2017
+====================
+
+
+   * packages/apps/Bluetooth/
+d2cf079  Directly inform Audio HAL regarding SCO state change  [Martinusbe]
+   * system/bt/
+2a692a1  AV: Use separate AV sig timeout timer for dual connections.  [Martinusbe]
+dc0d017  BT : Introduced an internal queue in hci thread to hold commands  [Martinusbe]
+a9b518c  Fix: btapp will crash when pair request from both DUT & Remote device simultaneously  [Martinusbe]
+aa8554e  RFCOMM: stop multiplexer disconnect timer while reconnect DLC  [Martinusbe]
+20dfba8  Fix time consuming doing Bluetooth OFF/ON while a2dp steaming.  [Martinusbe]
+d05e16e  Fix timestamp error in btsnoop log  [Martinusbe]
+034cf75  check controller state before handling gatt client request.  [Martinusbe]
+eaf2ebb  SDP: Dont start SDP search with invalid BD Addr  [Martinusbe]
+7ecbb9d  Configure correct remote MTU  [Martinusbe]
+379df58  audio_a2dp_hw: add audio_a2dp_check_ready for split A2DP  [Martinusbe]
+8945820  bt: enable BT_HOST_IPC_ENABLED for msm8998  [Martinusbe]
+====================
+     08-18-2017
+====================
+
+
+   * frameworks/av/
+b957ffa  Camera: Add NULL check on mDevice to avoid crash.  [Martinusbe]
+ad06f3c  Camera: Add null check on mDevice to avoid crash  [Martinusbe]
+   * frameworks/base/
+d5829b7  Camera2: Fix Error Callback if buffer lost.  [Martinusbe]
+d2e48ef  Camera: ignore torch status update for aux or compsite camera  [Martinusbe]
+   * frameworks/native/
+bc2bb86  native: Increase ART heap limit to 192MB for 1024MB RAM devices  [Martinusbe]
+cd2df81  SF: Improve hwrotation handling  [Martinusbe]
+   * hardware/qcom/bt-caf/
+8dec6dd  Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"  [Josue Rivera]
+   * packages/apps/Settings/
+8f7ca86  Revert "Settings[Wifi]: fix the input invalid length for WEP encryption."  [Martinusbe]
+   * vendor/tipsy/
+6e3d456  build: qcom_target: Add sdm660  [Martinusbe]
+626ba06  templates: Default to sanitize vendor folder during extraction  [Martinusbe]
+c15cf5a  Add Correios Celular (BR) APN  [Martinusbe]
+====================
+     08-17-2017
+====================
+
+
+   * frameworks/base/
+1013c3e  base: audioservice: Set BT_SCO status  [Martinusbe]
+   * packages/apps/Snap/
+b82b70a  Snap: add missing null check on isCamera2Supported  [Martinusbe]
+eba4c54  Automatic translation import  [Martinusbe]
+9929e05  Automatic translation import  [Martinusbe]
+   * vendor/tipsy/
+435d50e  Testing 6.8  [Martinusbe]
+====================
+     08-16-2017
+====================
+
+
+====================
+     08-15-2017
+====================
+
+
+   * frameworks/base/
+af32cd2  IME Switcher notification [1/2]  [Martinusbe]
+   * hardware/broadcom/wlan/
+a1d9360  Merge tag 'android-7.1.2_r28' into cm-14.1  [Josue Rivera]
+   * packages/apps/Settings/
+b44e6c6  IME Switcher notification [2/2]  [Martinusbe]
+====================
+     08-14-2017
+====================
+
+
+====================
+     08-13-2017
+====================
+
+
+   * hardware/qcom/bt-caf/
+af5bad2  libbt-qcom: Allow reading BT address from property  [Josue Rivera]
+====================
+     08-12-2017
+====================
+
+
+====================
+     08-11-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8916/
+d0db27d  Fix security vulnerability: Equalizer setParameter memory overflow  [Josue Rivera]
+   * hardware/qcom/audio-caf/msm8974/
+7552f72  Fix security vulnerability: Equalizer setParameter memory overflow  [Josue Rivera]
+   * packages/apps/Camera2/
+b202a7a  Automatic translation import  [Josue Rivera]
+====================
+     08-10-2017
+====================
+
+
+   * packages/apps/Jelly/
+f760e28  Revert "Jelly: Add WebChromeClientCompat"  [Martinusbe]
+e6bd9c0  Revert "Jelly: Add "search in page" feature"  [Martinusbe]
+bb035f3  Jelly: Improve incognito mode privacy  [Martinusbe]
+30541e6  Jelly: Enable more HTML5 features  [Martinusbe]
+98e9679  Jelly: Don't crash on non-http downloads  [Martinusbe]
+ff74098  Jelly: remove 'Mobile' from desktop user agent  [Martinusbe]
+d89f111  Jelly: Add "search in page" feature  [Martinusbe]
+c8bd26c  Jelly: Query an already ordered favorite list  [Martinusbe]
+4866e39  Jelly: Don't save form data in incognito mode  [Martinusbe]
+db08f4b  Automatic translation import  [Martinusbe]
+abcc9f9  Jelly: Add non encrypted google search engine  [Martinusbe]
+3f54a66  Jelly: Propagate custom request headers to WebClient  [Martinusbe]
+819c85d  Jelly: Add show/hide keyboard utilities  [Martinusbe]
+4828e06  Jelly: Search on Enter key  [Martinusbe]
+87f818a  Jelly: Don't reload on keyboard changes  [Martinusbe]
+ec11599  Jelly: Add WebChromeClientCompat  [Martinusbe]
+====================
      08-09-2017
 ====================
 
@@ -8,6 +136,8 @@
 77a99eb  [DO NOT MERGE] Updating Security String to 2017-08-05 on nyc-dev bug:62388772 (cherry picked from commit 2b93753bc4025e92e6b6c8ed510bc9b3f8faff4d)  [Martinusbe]
 ea6a4a3  [DO NOT MERGE] Updating Security String to 2017-08-01 on nyc-dev bug:62388772 (cherry picked from commit a847c0b23ce761b09148f4f8fd6c9b473a46f531)  [Martinusbe]
 da5a2ad  Version bump to NJH47D  [Martinusbe]
+   * external/skia/
+b952319  Stop supporting kUnknown_BmpHeaderType DO NOT MERGE  [Josue Rivera]
    * frameworks/av/
 cd20ae7  Fix security vulnerability: Equalizer setParameter memory overflow  [Martinusbe]
 1f8f0f6  RESTRICT AUTOMERGE Check the buffer index from acquireBuffer  [Martinusbe]
@@ -26,25 +156,46 @@ edb4b33  resolve merge conflicts of ad4aa1ce7d3d to nyc-mr1-dev fix conflict in 
 1bf8770  hardware: Camera: Return -1 if value does not exist  [Martinusbe]
    * frameworks/native/
 311e9c9  fix race condition that can cause a use after free  [Martinusbe]
+   * frameworks/opt/net/wifi/
+626467c  cherry-pick: wifinative jni: check array length for trackSignificantWifiChange  [Josue Rivera]
+   * hardware/qcom/audio-caf/msm8994/
+b2053c4  Fix security vulnerability: Equalizer setParameter memory overflow  [Martinusbe]
+   * hardware/qcom/audio-caf/msm8996/
+f0fa4a4  Fix security vulnerability: Equalizer setParameter memory overflow  [Martinusbe]
+   * hardware/qcom/audio/default/
+296db52  Fix security vulnerability: Equalizer setParameter memory overflow  [Josue Rivera]
    * manifest/
+33f6859  7.1.2_r33  [Martinusbe]
 e11e135  7.1.2_r29  [Martinusbe]
+   * vendor/tipsy/
+c3a3236  generate changelog for August patches  [Martinusbe]
 ====================
      08-08-2017
 ====================
 
 
+   * hardware/qcom/audio-caf/msm8998/
+3513a29  Fix security vulnerability: Equalizer setParameter memory overflow  [Martinusbe]
+   * hardware/qcom/fm/
+5c3dae1  Automatic translation import  [Josue Rivera]
+bdafe94  Automatic translation import  [Josue Rivera]
+   * packages/apps/Camera2/
+0f6a73f  Automatic translation import  [Josue Rivera]
+31bbdc6  Automatic translation import  [Josue Rivera]
 ====================
      08-07-2017
 ====================
 
 
-   * frameworks/base/
-43d04d1  SEEMP: Adding auth framework for outgoing SMS messages.  [Martinusbe]
+   * hardware/qcom/audio-caf/msm8998/
+1c35407  fix build error while we don't have an FM  [Nicholas Flintham]
 ====================
      08-06-2017
 ====================
 
 
+   * frameworks/base/
+43d04d1  SEEMP: Adding auth framework for outgoing SMS messages.  [Martinusbe]
    * packages/apps/Dialer/
 25bbdc6  Dialer: Fix compilation warnings  [Martinusbe]
    * packages/apps/Snap/
@@ -63,63 +214,3 @@ a21537f  extract_utils: support extracting directly from an ota zip  [Martinusbe
 d169768  templates: Remove empty cat << EOF  [Martinusbe]
 630888a  charger: Fix small battery capacity font  [Martinusbe]
 24a8295  kernel: Add savedefconfig target  [Martinusbe]
-====================
-     08-05-2017
-====================
-
-
-====================
-     08-04-2017
-====================
-
-
-====================
-     08-03-2017
-====================
-
-
-====================
-     08-02-2017
-====================
-
-
-====================
-     08-01-2017
-====================
-
-
-   * vendor/tipsy/
-3d443b4  update changelog  [Prema Chand Alugu]
-====================
-     07-31-2017
-====================
-
-
-====================
-     07-30-2017
-====================
-
-
-====================
-     07-29-2017
-====================
-
-
-====================
-     07-28-2017
-====================
-
-
-====================
-     07-27-2017
-====================
-
-
-====================
-     07-26-2017
-====================
-
-
-   * packages/apps/Settings/
-73ac815  SimSettings: avoid NPE  [Martinusbe]
-57fbffb  Optimized Code: call direct method to get integer extra  [Martinusbe]
