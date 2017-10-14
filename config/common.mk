@@ -93,7 +93,9 @@ PRODUCT_PACKAGES += \
     LatinIME \
     BluetoothExt \
     Launcher3Dark \
-    GZRoms
+    GZRoms \
+    Nova \
+    NovaGoogleCompanion
 
 # Extra tools
 PRODUCT_PACKAGES += \
