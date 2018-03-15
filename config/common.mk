@@ -97,6 +97,10 @@ PRODUCT_PACKAGES += \
     Nova \
     NovaGoogleCompanion
 
+# Fonts
+PRODUCT_PACKAGES += \
+    TipsyFonts
+
 # Extra tools
 PRODUCT_PACKAGES += \
     openvpn \
