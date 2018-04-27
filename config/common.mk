@@ -110,6 +110,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+## Slim Framework
+ifneq ($(DISABLE_SLIM_FRAMEWORK), true)
+include frameworks/slim/slim_framework.mk
+endif
+
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
     libffmpeg_extractor \
