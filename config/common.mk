@@ -180,7 +180,7 @@ endif
 # Versioning System
 # tipsy first version.
 PRODUCT_VERSION_MAJOR = 8.1.0
-PRODUCT_VERSION_MINOR = Stable
+PRODUCT_VERSION_MINOR = ALPHA
 PRODUCT_VERSION_MAINTENANCE = 1.0
 TIPSY_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 ifdef TIPSY_BUILD_EXTRA
