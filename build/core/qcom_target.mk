@@ -30,6 +30,7 @@ ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
     BR_FAMILY := msm8909 msm8916
     UM_3_18_FAMILY := msm8937 msm8953 msm8996
     UM_4_4_FAMILY := msm8998 sdm660
+    UM_PLATFORMS := $(UM_3_18_FAMILY) $(UM_4_4_FAMILY)
 
     ifeq ($(TARGET_USES_UM_PLATFORM),true)
         UM_3_18_FAMILY += $(BR_FAMILY)
@@ -57,8 +58,8 @@ ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
     # Allow building audio encoders
     TARGET_USES_QCOM_MM_AUDIO := true
 
-    # Enable color metadata for 8xx UM targets
-    ifneq ($(filter msm8996 msm8998,$(TARGET_BOARD_PLATFORM)),)
+     # Enable color metadata for every UM platform
+    ifeq ($(call is-board-platform-in-list, $(UM_PLATFORMS)),true)
         TARGET_USES_COLOR_METADATA := true
     endif
 
